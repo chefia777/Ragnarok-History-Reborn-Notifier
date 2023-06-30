@@ -1,0 +1,16 @@
+[
+    {
+        "url": "https://historyreborn.net/?module=item&action=view&id=55555",
+        "max_values": {
+            "CASH": 60000,
+            "Moeda de RMT": 35
+        }
+    },
+    {
+        "url": "https://historyreborn.net/?module=item&action=view&id=9276",
+        "max_values": {
+            "CASH": 25000,
+            "Moeda de RMT": 10
+        }
+    }
+]
