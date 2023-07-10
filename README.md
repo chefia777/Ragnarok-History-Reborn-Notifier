@@ -1,4 +1,4 @@
-# **Ragnarok Online History Reborn Private Server Scraper**
+# **Ragnarok Online History Reborn Private Server Notifier**
 This repository contains a Python scraper designed to extract URL data from the "Ragnarok Online History Reborn Private Server" game. The scraper's main functionality is to notify the user whenever an item of a shop chosen by him has been sold, both through the console window and Telegram.
 
 ## Requirements
@@ -24,17 +24,17 @@ Install the required dependencies using the following command:
 
 Clone the repository to your local machine:
 
-```git clone https://github.com/chefia777/Ragnarok-History-Reborn-Scraper.git```
+```git clone https://github.com/chefia777/Ragnarok-History-Reborn-Notifier.git```
 
 Navigate to the project directory:
 
-```cd Ragnarok-History-Reborn-Scraper```
+```cd Ragnarok-History-Reborn-Notifier```
 
 Configure the scraper by editing the Notifier.py file. In this file, you can specify the shop url you want to track. Update the Telegram configuration details in the Telegram.py file to enable Telegram notifications.
 
 Run the scraper:
 
-```python scraper.py```
+```python Notifier.py```
 
 The scraper will start fetching data from the game's server and checking the selected shop URL. If if an item is sold while the Notifier is running, you will be notified through the console window. If Telegram configuration is correctly set up, you will also receive a notification via Telegram.
 
